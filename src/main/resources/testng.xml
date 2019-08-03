@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="api：">
+    <test name="推荐应用列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getRecommendAppList"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="热门搜索列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getPopular"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取分类及应用列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getCategoriesAndDApps"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取代币详情" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getCoindetail"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取链列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getChainlist"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="搜索" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getSearchapp"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="根据分类ID获取DApp" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getDAppsByCategory"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="行为触发上报" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="actionUpload"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取banner" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getBannerList"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取推荐DApp列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getRecommendDApps"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取APP通知消息" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getNewNotify"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取APP是否有新版本" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getNewVersion"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取版本审核结果" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getAuditResult"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取节点列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getNodes"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取代理投票列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getVotelist"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="汇率计算" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getCoinexchange"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取代理详情" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getProxydetail"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="获取代币列表" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getCoinlist"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="查询账号" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getAccount"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="水果机账户信息" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getFriut"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="水果机奖池" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getFriutpark"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="挖矿账户信息" >
+    <classes>
+        <!-- Class需要拆开 不然没法写 methods-->
+        <class name="com.qa.tests.PostApiTest">
+            <methods>
+                <include name="getWkaccount"></include>
+            </methods>
+        </class>
+    </classes>
+   </test>
+    <test name="挖矿rex+年化收益" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getWkrex"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="USDE账户的eos数" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getUSDEeos"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="USDE账户的usde数" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getUSDEcount"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="EOS发行量（收款操作）" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getEOSCirculation"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="EOSpark" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getEosPark"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="EOSpark2" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getEosPark1"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="EOS查询账号" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getparkaccount"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="拍卖成交大厅" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getDealpark"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="拍卖搜索" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getDealsearch"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="账户竞拍" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getBidding"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子打赏榜" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getcirclerank"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getarticle"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子文章评论" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getcirclecomment"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子文章详情" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getarticleDetail"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子文章搜索" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getarticleSearch"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子文章搜索内容" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getarticleSearchxx"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子文章搜索内容精选" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getarticleSearchSelected"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="圈子精选" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getarticleSelected"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="行情" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getQuotation"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="行情快讯" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getQMessag"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="行情搜索" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getQSearch"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="交易记录" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getTransaction"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="EOS项目详情" >
+        <classes>
+            <!-- Class需要拆开 不然没法写 methods-->
+            <class name="com.qa.tests.PostApiTest">
+                <methods>
+                    <include name="getProjectdetail"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.qa.base.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
